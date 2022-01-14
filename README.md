@@ -117,9 +117,10 @@ test("displays plants in cart", () => {
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers below.
 
 1. What are the main differences between a class-based and a functional component?
-
+  A class component extends a component from React which passes along some built in methods. Functional components make use of hooks.
 2. When does a componentWillMount function be called? What about a componentDidUpdate?
-
+  componentWillMount will be called before rendereing. componentDidUpdate will be called when a component has been updated, such as state.
 3. Define stateful logic.
-
+  Stateful logic is any code that interacts or changes state.
 4. What are the three step of creating a successful test? What is done in each phase? 
+  Arrange: render the component, Act: Define elements and run user events, Assert: Confirm expected outputs are in the DOM
